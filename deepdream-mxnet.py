@@ -87,12 +87,12 @@ def deepdream(executor, base_img, img_mean, loss_function, guide_input=None,
     # returning the resulting image
     return deprocess(input_img,img_mean)
 
-img = io.imread('sky1024px.jpg')
+img = io.imread('input_image/sky1024px.jpg')
 img = transform.resize(img,(img.shape[0],img.shape[1]))*256
 input_size = (1,3,img.shape[0],img.shape[1])
 import importlib
 vgg_executor = importlib.import_module('Inception-V3').get_symbol(input_size, dev)
-_=deepdream(vgg_executor, img, img_mean=img_mean, loss_function="L2")
+#_=deepdream(vgg_executor, img, img_mean=img_mean, loss_function="L2")
 
 
     
@@ -111,5 +111,5 @@ _=deepdream(vgg_executor, img, img_mean=img_mean, loss_function="L2")
 #    frame_i += 1
 
 #Controlling dreams
-#guide_input = io.imread('flowers.jpg')
-#_=deepdream(vgg_executor, img, img_mean=img_mean, loss_function="inner_product",guide_input=guide_input)
+guide_input = io.imread('input_image/flowers.jpg')
+_=deepdream(vgg_executor, img, img_mean=img_mean, loss_function="inner_product",guide_input=guide_input)
