@@ -14,18 +14,12 @@ This repository contains python code to reimplement the [deepdream](http://googl
 There are 3 model.py defining cnn model, Inception-V3,VGG16,VGG19, You can download from the parameters from [inception-V3](https://github.com/dmlc/mxnet-model-gallery) parameters or convert the  caffe vgg-model into mxnet model with convert.py in [mxnet/tools](https://github.com/dmlc/mxnet/tree/master/tools/caffe_converter).
 
 Here are some results
-Inception-V3
-![Inception-V3](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/Inception-V3.jpg)
-Inception-V3 with flower
-![Inception-V3 with flower](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/Inception-V3%20with%20flower.jpg)
-VGG-16
-![vgg16-pool5](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg16-pool5.jpg)
-vgg16-pool5 with flower
-![vgg16-pool5 with flower](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg16-pool5%20with%20flower.jpg)
-VGG-19
-![vgg19-relu5_1](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg16-pool5.jpg)
-vgg19-relu5_1 with flower
-![vgg19-relu5_1 with flower](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg19%20with%20flower.jpg)
+Inception-V3![Inception-V3](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/Inception-V3.jpg)
+Inception-V3 with flower![Inception-V3 with flower](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/Inception-V3%20with%20flower.jpg)
+VGG-16-pool5![vgg16-pool5](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg16-pool5.jpg)
+vgg16-pool5 with flower![vgg16-pool5 with flower](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg16%20with%20flower.jpg)
+VGG-19-relu5_1![vgg19-relu5_1](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg19-relu5_1.jpg)
+vgg19-relu5_1 with flower![vgg19-relu5_1 with flower](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg19-relu5_1%20with%20flower.jpg)
 
 
 You can generate more dream picture with [mxnet](http://mxnet.readthedocs.io/en/latest/) which is a high  Flexible and efficient Library for deeplearning.The installation of mxnet is very simple.This code was mainly referencing [deepdream](https://github.com/google/deepdream) released by [Alexander Mordvintsev](mailto:moralex@google.com) with caffe. However, it's still strongly recommended to try deepdream with mxnet because the installation of caffe maybe very hard for most people.
