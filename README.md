@@ -5,9 +5,9 @@
 
 
 在此给大家安利mxnet，他的好，谁用谁知道。
+
 希望更多的科研、工作因为使用mxnet变得更简单高效！
 
-我是中英文分割线---I'm divided part line
 ***
 
 This repository contains python code to reimplement the [deepdream](http://googleresearch.blogspot.ch/2015/06/inceptionism-going-deeper-into-neural.html) with **mxnet**.
@@ -18,9 +18,9 @@ Here are some results
 ![VGG-16](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg16-pool5.jpg)
 ![VGG-19](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg19-relu5_1.jpg)
 
-You can generate more dream picture with [mxnet](http://mxnet.readthedocs.io/en/latest/) which is a high  Flexible and efficient Library for deeplearning.The installation of mxnet is very simple.
-This code was mainly referencing [deepdream](https://github.com/google/deepdream) released by [Alexander Mordvintsev](mailto:moralex@google.com) with caffe. However, it's still strongly recommended to try deepdream with mxnet because the installation of caffe maybe very hard for most people.
-mxnet! 
+You can generate more dream picture with [mxnet](http://mxnet.readthedocs.io/en/latest/) which is a high  Flexible and efficient Library for deeplearning.The installation of mxnet is very simple.This code was mainly referencing [deepdream](https://github.com/google/deepdream) released by [Alexander Mordvintsev](mailto:moralex@google.com) with caffe. However, it's still strongly recommended to try deepdream with mxnet because the installation of caffe maybe very hard for most people.
 
 Thanks for the researchers' work!
+
+注：目前inception-v3只能可视化in3c之前的层，后面的层会报错，已告诉mxnet开发者。修复后会在这里再次声明。
 
