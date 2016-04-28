@@ -15,8 +15,8 @@ There are 3 model.py defining cnn model, Inception-V3,VGG16,VGG19, You can downl
 
 Here are some results
 ![Inception-V3](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/Inception-V3.jpg)
-![VGG-16](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg16.jpg)
-![VGG-19](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg19.jpg)
+![VGG-16](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg16-pool5.jpg)
+![VGG-19](https://github.com/xzqjack/deepdream-mxnet/blob/master/output/vgg19-relu5_1.jpg)
 
 You can generate more dream picture with [mxnet](http://mxnet.readthedocs.io/en/latest/) which is a high  Flexible and efficient Library for deeplearning.The installation of mxnet is very simple.
 This code was mainly referencing [deepdream](https://github.com/google/deepdream) released by [Alexander Mordvintsev](mailto:moralex@google.com) with caffe. However, it's still strongly recommended to try deepdream with mxnet because the installation of caffe maybe very hard for most people.
